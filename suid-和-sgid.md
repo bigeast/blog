@@ -8,40 +8,40 @@ Linux中的文件除了rwx权限外，还有另外一类权限，**SUID**(**S**e
 ``
 $find /bin/ -perm -u=s
 ``
-	/bin/passwd
-	/bin/gpasswd
-	/bin/mount.cifs
-	/bin/mutter-launch
-	/bin/suexec
-	/bin/chsh
-	/bin/pkexec
-	/bin/chfn
-	/bin/newgrp
-	/bin/expiry
-	/bin/Xorg
-	/bin/su
-	/bin/sudo
-	/bin/rsh
-	/bin/fusermount
-	/bin/unix_chkpwd
-	/bin/ksu
-	/bin/rcp
-	/bin/mount
-	/bin/sg
-	/bin/umount
-	/bin/rlogin
-	/bin/mtr
-	/bin/chage
+    /bin/passwd
+    /bin/gpasswd
+    /bin/mount.cifs
+    /bin/mutter-launch
+    /bin/suexec
+    /bin/chsh
+    /bin/pkexec
+    /bin/chfn
+    /bin/newgrp
+    /bin/expiry
+    /bin/Xorg
+    /bin/su
+    /bin/sudo
+    /bin/rsh
+    /bin/fusermount
+    /bin/unix_chkpwd
+    /bin/ksu
+    /bin/rcp
+    /bin/mount
+    /bin/sg
+    /bin/umount
+    /bin/rlogin
+    /bin/mtr
+    /bin/chage
 
 * 列出 _/bin/_ 目录下的SGID文件:
 ``
 find /bin/ -perm -g=s
 ``
-	/bin/mount.cifs
-	/bin/x2goprint
-	/bin/unix_chkpwd
-	/bin/wall
-	/bin/write
+    /bin/mount.cifs
+    /bin/x2goprint
+    /bin/unix_chkpwd
+    /bin/wall
+    /bin/write
 
 SUID文件的用处是，任何用户可以文件所有者的权限执行文件。
 
